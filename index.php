@@ -44,8 +44,7 @@ sschk();
             <div class="box"><a href="user.php">ユーザー登録</a></div>
             <div class="box"><a href="user_list.php">ユーザー一覧</a></div>
         <?php } ?>
-
-
+        <div class="box"><a href="logout.php">ログアウト</a></div>
     </div>
     <!-- <div><a href=""></a></div> -->
 </body>
