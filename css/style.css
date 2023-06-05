@@ -1,0 +1,24 @@
+.heading-016 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4a4545;
+}
+
+.heading-016::before,
+.heading-016::after {
+    width: 3px;
+    height: 40px;
+    background-color: #69d025;
+    content: '';
+}
+
+.heading-016::before {
+    transform: rotate(-35deg);
+    margin-right: 30px;
+}
+
+.heading-016::after {
+    transform: rotate(35deg);
+    margin-left: 30px;
+}
